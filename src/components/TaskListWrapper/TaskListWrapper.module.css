@@ -1,0 +1,13 @@
+.container {
+	width: 100vw;
+	height: calc(100vh - 200px);
+	background-color: var(--gray-600);
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 736px;
+	padding: 0 1.5rem;
+}

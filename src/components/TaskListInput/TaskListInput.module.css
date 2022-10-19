@@ -1,0 +1,49 @@
+.container {
+	width: 100%;
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: -1.438rem;
+}
+
+.task-input {
+	padding: 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--gray-100);
+	background-color: var(--gray-500);
+	flex: 1;
+	border: 1px solid var(--gray-700);
+	border-radius: 8px;
+}
+
+.task-input:focus {
+	border: 1px solid var(--purple-dark);
+}
+
+.task-input::placeholder {
+	color: var(--gray-300);
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	font-weight: 700;
+	font-size: 0.875rem;
+	color: var(--gray-100);
+	gap: 0.5rem;
+	border-radius: 8px;
+	background-color: var(--blue-dark);
+	transition: background-color 0.1s ease-in-out;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--blue);
+}
+
+.btn:active {
+	outline: 1px solid var(--blue-dark);
+}
