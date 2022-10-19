@@ -4,12 +4,12 @@ export interface TaskListProps {
 	isComplete: boolean;
 }
 
-export interface TaksItemProps extends TaskListProps {
+export interface TaksListItemProps extends TaskListProps {
 	onComplete: () => void;
 	onDelete: () => void;
 }
 
-export interface TaskListInputProps {
+export interface TaskListBodyProps {
 	taskList: TaskListProps[];
 	setTaskList: React.Dispatch<React.SetStateAction<TaskListProps[]>>;
 }

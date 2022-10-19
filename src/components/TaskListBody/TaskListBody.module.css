@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4rem;
+	margin-bottom: 1.5rem;
+}
+
+.displayCount {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.displayCountText {
+	font-size: 0.875rem;
+	font-weight: 700;
+}
+
+.displayCountValue {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.75rem;
+	font-weight: 700;
+	color: var(--gray-100);
+	background-color: var(--gray-400);
+	padding: 0.125rem 0.5rem;
+	border-radius: 999px;
+	line-height: 1rem;
+}
+
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.75rem;
+}

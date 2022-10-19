@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 4rem;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-top: 1px solid var(--gray-400);
+}
+
+.firstParagraph {
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--gray-300);
+}
+
+.secondParagraph {
+	font-size: 1rem;
+	color: var(--gray-300);
+}

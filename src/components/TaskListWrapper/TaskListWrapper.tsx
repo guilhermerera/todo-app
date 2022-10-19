@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { TaskListProps } from "../../../interfaces/Interfaces";
+import TaskListBody from "../TaskListBody";
 import TaskListInput from "../TaskListInput";
 import styles from "./TaskListWrapper.module.css";
 
@@ -9,8 +10,8 @@ export default function TaskListWrapper() {
 	return (
 		<main className={styles.container}>
 			<div className={styles.wrapper}>
-				<TaskListInput />
-				<section>list</section>
+				<TaskListInput taskList={taskList} setTaskList={setTaskList} />
+				<TaskListBody taskList={taskList} setTaskList={setTaskList} />
 			</div>
 		</main>
 	);
