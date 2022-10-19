@@ -11,7 +11,7 @@
 
 ### 🔎 Live View
 
-- Currently unavailable
+- [Live link](https://todo-app-eight-tawny.vercel.app)
 
 <br>
 
